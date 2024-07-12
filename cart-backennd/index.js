@@ -28,9 +28,6 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 sequelize.authenticate().then(() => {
   console.log("Connection has been established successfully.");
-  sequelize.sync({ force: true }).then(() => {
-    console.log("Database created successfully.");
-  });
 });
 
 app.listen(8080, () => {
