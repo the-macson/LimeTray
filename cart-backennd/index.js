@@ -12,7 +12,7 @@ const options = {
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "Notification System API",
+      title: "Cart API",
       version: "1.0.0",
     },
   },
@@ -28,6 +28,9 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 sequelize.authenticate().then(() => {
   console.log("Connection has been established successfully.");
+  sequelize.sync({ force: true }).then(() => {
+    console.log("Database created successfully.");
+  });
 });
 
 app.listen(8080, () => {
