@@ -24,6 +24,9 @@ I created a cart with default values. User can change the values of the cart. Th
 - Swagger UI (for API documentation)
 - Jest (for testing)
 
+## Important Note
+- The website is hosted on a free tier, which may result in slower response times for the first request. If the first request fails, please reload the website.
+
 ## Links
 
 - [Web App](https://lime-tray.vercel.app/) [https://lime-tray.vercel.app/]
@@ -99,3 +102,8 @@ npm run test
 - [API Documentation](https://cart.choreoapps.dev/api-docs) [https://cart.choreoapps.dev/api-docs]
 
 ## Screenshots
+
+<img width="1707" alt="Screenshot 2024-07-12 at 12 15 32 PM" src="https://github.com/user-attachments/assets/b16fd2f4-8530-48ab-9aa8-d8849b02787c">
+<img width="1698" alt="Screenshot 2024-07-12 at 12 14 50 PM" src="https://github.com/user-attachments/assets/d7cf4ba0-19bf-4e1b-861a-8adf5661c577">
+
+<img width="1196" alt="Screenshot 2024-07-12 at 12 14 14 PM" src="https://github.com/user-attachments/assets/c08f4a9e-a56a-406a-8fa7-7d2ef67a2e32">
